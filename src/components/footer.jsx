@@ -1,12 +1,12 @@
 import React from "react";
-import '../App';
+import "../App";
 
 const Footer = () => {
-    return (
-        <div className="footer">
-            <p>Books App 2022&copy;</p>
-        </div>
-    );
+  return (
+    <div className="footer">
+      <p>Books App 2022&copy;</p>
+    </div>
+  );
 };
 
 export default Footer;

@@ -2,7 +2,7 @@ import React from "react";
 import "../App";
 import { useAppContext } from "./context/appContext";
 import Book from "./book";
-import {Text} from '@chakra-ui/react'
+import { Text} from "@chakra-ui/react";
 
 const Favorites = () => {
   const { favorites, addToFavorites, removeFromFavorites } = useAppContext();
@@ -37,9 +37,9 @@ const Favorites = () => {
           </div>
         ))
       ) : (
-        <Text fontSize='40px' color='teal'>
-      You don't have any favorite books yet!
-      </Text>
+        <Text fontSize="40px" color="teal">
+          You don't have any favorite books yet!
+        </Text>
       )}
     </div>
   );

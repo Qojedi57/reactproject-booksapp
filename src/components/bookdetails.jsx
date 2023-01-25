@@ -3,7 +3,7 @@ import "../App";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { BOOK_DETAILS_URL } from "../API";
-import { Box, Button } from "@chakra-ui/react";
+import { Box} from "@chakra-ui/react";
 import Book from "./book";
 
 const BookDetails = () => {

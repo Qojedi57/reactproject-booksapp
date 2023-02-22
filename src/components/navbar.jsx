@@ -1,5 +1,4 @@
 import React from "react";
-import "../App";
 import { Link } from "react-router-dom";
 import { Spacer, Flex, Box, ButtonGroup,Text } from "@chakra-ui/react";
 

@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "../App";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { BOOK_DETAILS_URL } from "../API";
+import { BOOK_DETAILS_URL } from "../api";
 import { Box} from "@chakra-ui/react";
 import Book from "./book";
 

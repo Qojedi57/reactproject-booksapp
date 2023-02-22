@@ -1,5 +1,4 @@
 import React from "react";
-import "../App";
 import { useAppContext } from "./context/appContext";
 import Book from "./book";
 import { Text} from "@chakra-ui/react";

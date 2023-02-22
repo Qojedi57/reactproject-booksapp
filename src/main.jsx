@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
-import AppContextProvider from "./components/context/appContext";
+import AppContextProvider from "./components/context/app-context";
 import { ChakraProvider } from "@chakra-ui/react";
 
  ReactDOM.createRoot(document.getElementById("root")).render(
